@@ -1,0 +1,33 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="@Url.Action("Index", "Home")">
+                <img src="https://i.ibb.co/93cdRdN/logoinverse-Transparent.png" id="siteLogo" class="navbar-brand" />
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" id="rightNav">
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Portfolio", "Index", "Home")</li>
+                <li>
+                    <a href="https://github.com/MWight20">
+                        <img src="https://i.ibb.co/R6hL9pp/white-github-icon-813505.png" alt="gitHubLogo" id="gitHubLogo" />
+                        Check out my Github page
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mwight20">
+                        <img src="https://i.ibb.co/qgdM6J8/pngfind-com-linkedin-logo-png-transparent-780233.png" alt ="LinkedInLogo" id="linkedInLogo" />
+                        Check out my LinkedIn page
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
