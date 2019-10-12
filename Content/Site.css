@@ -1,8 +1,9 @@
 ﻿body {
     padding-top: 50px;
-    font-family: sans-serif;
+    font-family: Bahnschrift, sans-serif, Arial;
     letter-spacing: 0.08rem;
 }
+
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -29,6 +30,7 @@
 /* override navbar-fixed-top*/
 .navbar-fixed-top {
     position: absolute;
+    height: 180px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -131,13 +133,14 @@ textarea {
 .featureBanner {
     text-align: center;
     width: 100%;
-    height: 180px;
+    height: 150px;
     background: #21c2f8;
     padding-top: 30px;
     padding-bottom: 50px;
     margin-top: auto;
     margin-bottom: auto;
     color: #f3f7f8;
+    
 }
 
 .aboutBanner {
@@ -154,13 +157,13 @@ textarea {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 15px;   
 }
 
     .bannerContent > h1 {
-        font-family: sans-serif;
+        font-family: Bahnschrift, sans-serif, Arial;
     }
 
 .featuredProjectContainer {
@@ -178,32 +181,47 @@ textarea {
             color: red;
         }
 
-.featuredProjectContent{
-    
+
+.projectContentDescription {
+    /*border: 1px solid #21c2f8;*/
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.project1,
-.project2,
-.project3,
-.project4 {
-    margin-top: 20px;
-    margin-bottom: 90px;
+    .projectContentDescription > p{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+        .projectContentDescription > p > strong {
+            color: #21c2f8;
+            font-size: 20px;
+            
+        }
+
+.project {
+    margin-bottom: 10%;
 }
 
-    .project1 p,
-    .project2 p,
-    .project3 p,
-    .project4 p {
+    .project p {
         text-align: left;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+    
+    .project > div > h2 {
+        margin-bottom: 50px;
+    }
+
+    .project > div > h2 > strong{
+        border-bottom: solid 2px #202020;
     }
 
 #sampleProjectImg {
     max-height: 600px;
-    max-width: 800px;
+    max-width: 40%;
     border: 3px solid #202020;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -217,6 +235,7 @@ textarea {
 
 .buttonDiv {
     height: 50px;
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -250,4 +269,13 @@ textarea {
 #gitLink {
     margin-right: 15px;
     margin-left: 15px;
+}
+
+#projectTitleLink {
+    color: #2c3e50;
+}
+
+#projectTitleLink:hover {
+    color: #21c2f8;
+    transition: all .4s ease-out;
 }

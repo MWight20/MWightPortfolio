@@ -210,10 +210,15 @@
     <Content Include="Content\Images\logoBannerTransparent.png" />
     <Content Include="Content\Images\logoblack.png" />
     <Content Include="Content\Images\logoWhite.png" />
+    <Content Include="Content\Images\MERNStackStarterpostmanscreenshot.png" />
+    <Content Include="Content\Images\MERNStackStarterscreenshot.png" />
     <Content Include="Content\Images\SampleSite.png" />
     <Content Include="Content\Images\TMSAddnewproject.png" />
     <Content Include="Content\Images\TMSTimeSheets.png" />
+    <Content Include="Content\Images\webapiapplicationScreenshot.png" />
+    <Content Include="Content\Images\webapiCodesnippet.png" />
     <Content Include="Content\Images\WhiteGitLogo.png" />
+    <Content Include="Content\Images\winformapplicationScreenshot.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
