@@ -183,6 +183,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PortfolioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -212,6 +213,7 @@
     <Content Include="Content\Images\logoWhite.png" />
     <Content Include="Content\Images\MERNStackStarterpostmanscreenshot.png" />
     <Content Include="Content\Images\MERNStackStarterscreenshot.png" />
+    <Content Include="Content\Images\MWightPortrait.jpg" />
     <Content Include="Content\Images\SampleSite.png" />
     <Content Include="Content\Images\TMSAddnewproject.png" />
     <Content Include="Content\Images\TMSTimeSheets.png" />
@@ -272,6 +274,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_NavBarPartial.cshtml" />
     <Content Include="Views\Shared\_FooterPartial.cshtml" />
+    <Content Include="Views\Portfolio\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -154,7 +154,7 @@ textarea {
 }
 
 .bannerContent {
-    padding-top: 20px;
+    padding-top: 12px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -165,6 +165,52 @@ textarea {
     .bannerContent > h1 {
         font-family: Bahnschrift, sans-serif, Arial;
     }
+
+
+
+.bannerContent > h2 {
+    margin-top: -10px;
+}
+
+.bannerContent > h1 > .bannerHeaderLink {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #f3f7f8;
+    text-decoration: none;
+    position: relative;
+    transition: color .4s ease-out;
+}
+
+    .bannerContent > h1 > .bannerHeaderLink:hover {
+        color: #f3f7f8;
+        right: 0;
+        text-decoration: none;
+    }
+
+        .bannerContent > h1 > .bannerHeaderLink:hover:after {
+            border-color: #f3f7f8;
+            right: 0;
+        }
+
+    .bannerContent > h1 > .bannerHeaderLink:after {
+        border-radius: 1em;
+        border-top: .1em solid #f3f7f8;
+        content: "";
+        position: absolute;
+        right: 100%;
+        bottom: .14em;
+        left: 0;
+        transition: right .4s cubic-bezier(0,.5,0,1), border-color .4s ease-out;
+    }
+
+    .bannerContent > h1 > .bannerHeaderLink:hover:after {
+        right: 0;
+    }
+
+
+.bannerHeaderLink {
+    padding-bottom: 10px;
+}
 
 .featuredProjectContainer {
     margin-top: 50px;
@@ -215,9 +261,9 @@ textarea {
         margin-bottom: 50px;
     }
 
-    .project > div > h2 > strong{
-        border-bottom: solid 2px #202020;
-    }
+        .project > div > h2 > strong{
+            border-bottom: solid 2px #202020;
+        }
 
 #sampleProjectImg {
     max-height: 600px;
@@ -265,8 +311,8 @@ textarea {
         transition: all .4s ease-out;
     }
 
-#specLink,
-#gitLink {
+.specLink,
+.gitLink {
     margin-right: 15px;
     margin-left: 15px;
 }
@@ -275,7 +321,26 @@ textarea {
     color: #2c3e50;
 }
 
-#projectTitleLink:hover {
-    color: #21c2f8;
-    transition: all .4s ease-out;
+    #projectTitleLink:hover {
+        color: #21c2f8;
+        text-decoration: none;
+        transition: all .4s ease-out;
+    }
+
+
+
+
+    /*About me page CSS*/
+.aboutContentContainer {
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.bioContent {
+    align-content: center:
+}
+
+.bioImage {
+    max-height: 300px;
 }
