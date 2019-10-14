@@ -11,8 +11,8 @@
     </div>
 </div>
 <div class="aboutContentContainer">
-    <div class="bioContent row">
-        <div class="col-lg-3">
+    <div class="aboutContent row" id="aboutBio">
+        <div class="col-lg-3 bioImageContainer">
             <img src="~/Content/Images/MWightPortrait.jpg" class="bioImage" />
         </div>
         <div class="col-lg-6">
@@ -32,21 +32,42 @@
         </div>
 
     </div>
-    <div class="educationContent">
-        <h2>Education</h2>
-
+    <div class="aboutContent">
+        <h2>Project Experience</h2>
+        <p> To find out more about some of the projects I've worked on, click on one of the links below.</p>
+        <div class="buttonDiv">
+            @Html.ActionLink("Click here to go my portfolio", "index", "Portfolio", null ,new { @class="button specLink"})
+        </div>
     </div>
 
-    <div class="skillsContent">
+    <div class="aboutContent" id="aboutEducation">
+        <h2>Education</h2>
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="~/Content/Images/Northern_Illinois_Huskies_logo.svg.png" class="NIULogo" />
+            </div>
+            <div class="col-lg-6">
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="aboutContent" id="aboutSkills">
         <h2>Skills</h2>
 
+        <p>
+            <strong>Languages:  </strong>C#, JavaScript, Java, C, C++, PHP, HTML,  CSS.
+        </p>
+        <p>
+            <strong>Tools: </strong>MySQL/SQL, Git, Bootstrap, Node.js, .NET, React, MVC
+        </p>
     </div>
 
-    <div class="projectContent">
-        <h2>Project Experience</h2>
-    </div>
 
-    <div class="experienceContent">
+
+    <div class="aboutContent" id="aboutWork">
         <h2>Work history</h2>
 
 

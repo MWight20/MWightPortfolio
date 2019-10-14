@@ -4,15 +4,26 @@
 <div class="featureBanner">
     <div class="bannerContent">
         <h1>
-            @Html.ActionLink("Click here to find out more about me.", "about", "Home", new { @class = "bannerHeaderLink" })
-            <br />
-            @*<strong>Here's a list of some of my projects:</strong>*@
+            Here's a list of some of my projects:
         </h1>
+        <p>@Html.ActionLink("Click here to find out more about me.", "index", "Home", null, new { @class = "bannerHeaderLink" })</p>
     </div>
 </div>
 <div class="featuredProjectContainer">
+    <div class="tableOfContents">
+        <h4>Table Of Contents:</h4>
+        <ul>
+            <li><a href="#AzureCookbook">Azure Cookbook</a></li>
+            <li><a href="#TMS-Meteor">Time Management System</a></li>
+            <li><a href="#WebAPIDemo">WebAPI / Winform Application Demo</a></li>
+            <li><a href="#MERNStackStarter">MERN - Stack Starter</a></li>
+        </ul>
+    </div>
+
+    
+
     <ul class="featuredProjectContent">
-        <li class="project">
+        <li class="project" id="AzureCookbook">
             <div>
                 <a href="#" id="projectTitleLink"><h2><strong>Azure Cookbook</strong></h2></a>
                 <a href="~/Content/Images/azurecookbookscreenshot.png"><img src="~/Content/Images/azurecookbookscreenshot.png" id="sampleProjectImg" /></a>
@@ -21,7 +32,7 @@
                 <p id="imageEnlarge"><small>Click on image to enlarge</small></p>
 
                 <div class="projectContentDescription">
-                    <p><strong>What is "Azure Cookbook?":</strong></p>
+                    <p><strong>Azure Cookbook</strong></p>
                     <p>
                         This cookbook app serves as a means to organize and collect different cooking recipes into one place and manage them into a viewable, navigatable user interface.
                     </p>
@@ -42,16 +53,18 @@
                         Click here to visit on GitHub
                     </a>
 
-                    <a class="button specLink" href="#">
+                    @*<a class="button specLink" href="#">
                         Click here for Project details
-                    </a>
-
-                    @*@Html.ActionLink("Click here for project details", "controller", "controllermethod", new { @id = "specLink")*@
+                    </a>*@
 
                 </div>
             </div>
         </li>
-        <li class="project">
+
+
+        <a href="#rightNav" id="stickyButton" class="button">Return to the top </a>
+
+        <li class="project" id="TMS-Meteor">
             <div>
                 <a href="#" id="projectTitleLink"><h2><strong>Time Management System</strong></h2></a>
                 <a href="~/Content/Images/TMSAddnewproject.png"><img src="~/Content/Images/TMSAddnewproject.png" id="sampleProjectImg" /></a>
@@ -81,14 +94,14 @@
                         Click here to visit on GitHub
                     </a>
 
-                    <a class="button specLink" href="#">
+                    @*<a class="button specLink" href="#">
                         Click here for Project details
-                    </a>
+                    </a>*@
                 </div>
             </div>
 
         </li>
-        <li class="project">
+        <li class="project" id="WebAPIDemo">
             <div>
                 <a href="#" id="projectTitleLink"><h2><strong>Web API / Winform Demo Application</strong></h2></a>
                 <a href="~/Content/Images/webapiapplicationScreenshot.png"><img src="~/Content/Images/webapiapplicationScreenshot.png" id="sampleProjectImg" /></a>
@@ -118,13 +131,13 @@
                         Click here to visit on GitHub
                     </a>
 
-                    <a class="button specLink" href="#">
+                    @*<a class="button specLink" href="#">
                         Click here for Project details
-                    </a>
+                    </a>*@
                 </div>
             </div>
         </li>
-        <li class="project">
+        <li class="project" id="MERNStackStarter">
             <div>
                 <a href="#" id="projectTitleLink"><h2><strong>MERN Stack Starter</strong></h2></a>
 
@@ -152,11 +165,12 @@
                         Click here to visit on GitHub
                     </a>
 
-                    <a class="button specLink" href="#">
+                    @*<a class="button specLink" href="#">
                         Click here for Project details
-                    </a>
+                    </a>*@
                 </div>
             </div>
         </li>
     </ul>
+    
 </div>

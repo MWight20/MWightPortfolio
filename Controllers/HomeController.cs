@@ -10,7 +10,7 @@ namespace MWightPorfolio.Controllers
     {
         public ActionResult Index()
         {
-            return RedirectToAction("about", "Home");
+            return View("about");
         }
 
         public ActionResult About()

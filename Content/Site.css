@@ -4,6 +4,9 @@
     letter-spacing: 0.08rem;
 }
 
+ul {
+    padding-left: 0px;
+}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -140,7 +143,8 @@ textarea {
     margin-top: auto;
     margin-bottom: auto;
     color: #f3f7f8;
-    
+    background-image: linear-gradient(to top, #2c3e50,#21c2f8)
+
 }
 
 .aboutBanner {
@@ -172,7 +176,7 @@ textarea {
     margin-top: -10px;
 }
 
-.bannerContent > h1 > .bannerHeaderLink {
+.bannerContent > p > .bannerHeaderLink {
     margin-top: auto;
     margin-bottom: auto;
     color: #f3f7f8;
@@ -181,18 +185,18 @@ textarea {
     transition: color .4s ease-out;
 }
 
-    .bannerContent > h1 > .bannerHeaderLink:hover {
+    .bannerContent > p > .bannerHeaderLink:hover {
         color: #f3f7f8;
         right: 0;
         text-decoration: none;
     }
 
-        .bannerContent > h1 > .bannerHeaderLink:hover:after {
+        .bannerContent > p > .bannerHeaderLink:hover:after {
             border-color: #f3f7f8;
             right: 0;
         }
 
-    .bannerContent > h1 > .bannerHeaderLink:after {
+    .bannerContent > p > .bannerHeaderLink:after {
         border-radius: 1em;
         border-top: .1em solid #f3f7f8;
         content: "";
@@ -203,7 +207,7 @@ textarea {
         transition: right .4s cubic-bezier(0,.5,0,1), border-color .4s ease-out;
     }
 
-    .bannerContent > h1 > .bannerHeaderLink:hover:after {
+    .bannerContent > p > .bannerHeaderLink:hover:after {
         right: 0;
     }
 
@@ -337,10 +341,56 @@ textarea {
     margin-right: 15%;
 }
 
-.bioContent {
-    align-content: center:
+.aboutContent {
+    margin-bottom: 40px;
 }
 
+    #aboutEducation > h2,
+    #aboutWork > h2,
+    #aboutSkills > h2 {
+        text-align: center;
+    }
+
+.bioImageContainer {
+}
 .bioImage {
     max-height: 300px;
+    margin-top: 30px;
 }
+
+.projectContent {
+    margin-bottom: 
+}
+
+.NIULogo {
+    max-height: 250px;
+}
+
+.tableOfContents {
+    text-align:center;
+    padding-left: 
+}
+
+.tableOfContents > ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#stickyButton {
+    color: #f3f7f8;
+    border: none;
+    margin-left: 80%;
+    position: sticky;
+    top: 35px;
+}
+
+.tableOfContents > ul > li > a {
+    color: #2c3e50;
+}
+
+    .tableOfContents > ul > li > a:hover {
+        color: #21c2f8;
+        text-decoration: none;
+        transition: all .1s ease-out;
+    }
+
