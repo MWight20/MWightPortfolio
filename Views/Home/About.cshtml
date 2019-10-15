@@ -12,17 +12,17 @@
 </div>
 <div class="aboutContentContainer">
     <div class="aboutContent row" id="aboutBio">
-        <div class="col-lg-3 bioImageContainer">
-            <img src="~/Content/Images/MWightPortrait.jpg" class="bioImage" />
+        <div class="col-lg-4 bioImageContainer">
+            <img src="~/Content/Images/MWightPortrait.jpg" class="bioImage" alt="MWightPortraitImg" />
         </div>
         <div class="col-lg-6">
             <h2>Bio</h2>
             <p>Hello, My names Michael!</p>
             <p>
-                I'm a Northern Illinois University graduate with a degree in Computer Science and Software Development.
+                I'm a Northern Illinois University graduate with a degree in Computer Science and Software Development. I'm 28 years old and I was born in Rockford, Illinois.
                 I pride myself as an eager, flexible, and open-minded developer with the drive to learn new things and better myself in my profession.
                 I've always loved discovering and understanding the details about how things work.
-                My passion and dedication is what continues to drive me through life.
+                My passion and dedication is what continues to drive me through life. 
             </p>
             <p>
                 Throughout my years of study I’ve elevated my critical thinking and self-learning abilities so that I’d complete all the tasks given to me.
@@ -32,44 +32,112 @@
         </div>
 
     </div>
-    <div class="aboutContent">
-        <h2>Project Experience</h2>
+    <div class="aboutContent" id="aboutProjects">
+        <h2>Project Portfolio</h2>
         <p> To find out more about some of the projects I've worked on, click on one of the links below.</p>
         <div class="buttonDiv">
-            @Html.ActionLink("Click here to go my portfolio", "index", "Portfolio", null ,new { @class="button specLink"})
+            @Html.ActionLink("Portfolio", "index", "Portfolio", null ,new { @class="button specLink"})
         </div>
     </div>
 
     <div class="aboutContent" id="aboutEducation">
-        <h2>Education</h2>
+        
         <div class="row">
-            <div class="col-lg-3">
-                <img src="~/Content/Images/Northern_Illinois_Huskies_logo.svg.png" class="NIULogo" />
+            <div class="col-lg-4">
+                <img src="~/Content/Images/Northern_Illinois_Huskies_logo.svg.png" class="NIULogo" alt="NIUHuskiesLogo"/>
+                <h3>Notable Coursework:</h3>
+                <p>.NET programming in C# -- CSCI 473</p>
+                <p>Data Structures -- CSCI 340</p>
+                <p>Databases 1 -- CSCI 566</p>
+                <p>Databases 2 -- CSCI 688</p>
+                <p>Java Programming -- CSCI 680</p>
+                <p>Object Oriented Programming -- CSCI 689</p>
+                <p>Systems Design and Analysis 1 -- CSCI 567</p>
+                <p>Systems Design and Analysis 2 -- CSCi 663</p>
+                <p>Web Application Frameworks -- CSCI 680</p>
             </div>
             <div class="col-lg-6">
-
+                <br />
+                <h2>Education</h2>
+                <br />
+                <p>
+                    <ul class="educationInfoList">
+                        <li><strong>Northern Illinois University</strong></li>
+                        <li>Masters of Science in Computer Science  [GPA: 3.5]</li>
+                        <li><em>Focuses: System design and Analysis & Databases</em></li>
+                        <li>August 2015 - May 2018</li>
+                    </ul>
+                </p>
+                <br />
+                <p>
+                    &nbsp; At my time in school I've gained first-hand experience programming and coding
+                    in various languages. Doing so has given me a solid foundation to start and a launching point to understand
+                    the similarities and differences in languages. More Importantly, it's given me a greater
+                    understanding of how to learn new things effectively.
+                </p>
+                <p>
+                    &nbsp; The building blocks of my degree have enabled me to discover and learn the necessary skills to create full stack
+                    web applications that utilize backend database servers alongside new and popular web-frameworks. 
+                    Some of these frameworks include: Angular, React, Laravel, Spring, Meteor, and .NET. One class in particular 
+                    enabled and exposed me to develop and run applications using each of these web-application frameworks. 
+                </p>
+                <p>
+                    &nbsp; Since graduating with my degree I have continued to discover and develop new applications. Some of those include:
+                    "Azure Cookbook", "Time Management System -- Meteor", "WebAPI/Winform application", as well as a "shopping cart" application that is a new project I'm currently beginning to work on.
+                    Most of these are showcased @Html.ActionLink("here on this portfolio webpage", "index", "Portfolio", null, new { @class = "aboutMePageLink" }).
+                </p>
             </div>
         </div>
     </div>
 
-    
-
     <div class="aboutContent" id="aboutSkills">
         <h2>Skills</h2>
-
         <p>
-            <strong>Languages:  </strong>C#, JavaScript, Java, C, C++, PHP, HTML,  CSS.
+            <strong>Languages: </strong>C#, JavaScript, Java, C, C++, PHP, HTML,  CSS.
         </p>
         <p>
-            <strong>Tools: </strong>MySQL/SQL, Git, Bootstrap, Node.js, .NET, React, MVC
+            <strong>Tools: </strong>MySQL/SQL, Git, C#.NET, MVC, Bootstrap, Node.js,  React.
         </p>
     </div>
 
-
-
     <div class="aboutContent" id="aboutWork">
+
         <h2>Work history</h2>
+        <div class="row" id="WECSection">
+            <div class="col-lg-4">
+                <img src="~/Content/Images/wighteyecareiconTransparent.png" class="WECLogo" alt="WightEyeCareLogo" />
+            </div>
+            <h3>Wight Eye Care</h3>
+            <div class="col-lg-6">
+                <p><strong>Ocular Technician</strong> </p>
+                <p><em>June 2014 - March 2015; July 2019 - Present</em></p>
+                <ul>
+                    <li>Conducts hands-on ocular testing with patients through methods of retinal photography, 
+                    Tono-pen handling, and visual field testing for glaucoma.</li>
+                    <li>Maintains office workflow and patient file management through cloud-based patient record system.</li>
+                    <li>Exhibits communication skills through working closely with co-workers and patients </li>
+                    <li>Minor IT work including: solving computer network issues, technical peripheral issues,
+                    as well as configuration of any software for workplace machines.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row" id="schnucksSection">
+            <div class="col-lg-4">
+                <img src="~/Content/Images/schnuck-markets-squarelogo.png" class="schnucksLogo" alt="SchnucksLogo" />
+            </div>
+            <h3>Schnucks Markets</h3>
+            <div class="col-lg-6">
+                <p><strong>Center Store Clerk</strong> </p>
+                <p><em>April 2015 - July 2019</em></p>
+                <ul>
+                    <li>Demonstrates ability to work independently on projects and daily department duties.</li>
+                    <li>Executes diligence for task based goals under managerial direction.</li>
+                    <li>Satisfies customer inquisitions and customer service requests on the sales floor using store/product knowledge,
+                    patience, and good listening skills.</li>
 
-
+                </ul>
+            </div>
+        </div>
     </div>
 </div>

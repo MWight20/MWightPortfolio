@@ -143,7 +143,7 @@ textarea {
     margin-top: auto;
     margin-bottom: auto;
     color: #f3f7f8;
-    background-image: linear-gradient(to top, #2c3e50,#21c2f8)
+    /*background-image: linear-gradient(to top, #2c3e50,#21c2f8)*/
 
 }
 
@@ -342,33 +342,70 @@ textarea {
 }
 
 .aboutContent {
-    margin-bottom: 40px;
+    margin-bottom: 15%;
+    margin-top: 10%;
 }
 
-    #aboutEducation > h2,
-    #aboutWork > h2,
+#aboutSkills {
+    border: 1px solid #21c2f8;
+}
     #aboutSkills > h2 {
+        color: #21c2f8;
+    }
+
+#aboutProjects {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border: 1px solid #21c2f8;
+}
+
+    #aboutProjects > h2 {
+        text-align: center;
+        color: #21c2f8
+    }
+
+    #aboutProjects > p,
+    #aboutProjects > div{
+        text-align: center;
+
+    }
+
+    #aboutEducation > h2 {
+        text-align: center;
+        color: #21c2f8
+    }
+
+    #aboutWork > h2,
+    #aboutSkills > h2,
+    #aboutSkills > p{
         text-align: center;
     }
 
 .bioImageContainer {
 }
+
 .bioImage {
     max-height: 300px;
     margin-top: 30px;
 }
 
-.projectContent {
-    margin-bottom: 
+.educationInfoList {
+    list-style-type: none;
 }
+
 
 .NIULogo {
     max-height: 250px;
+    padding-bottom: 30px;
+}
+
+.WECLogo,
+.schnuckLogo {
+    max-height: 200px;
 }
 
 .tableOfContents {
-    text-align:center;
-    padding-left: 
+    text-align: center;
 }
 
 .tableOfContents > ul {
@@ -393,4 +430,15 @@ textarea {
         text-decoration: none;
         transition: all .1s ease-out;
     }
+
+.aboutMePageLink,
+.aboutMePageLink:hover {
+    color: #21c2f8;
+}
+
+#schnucksSection,
+#WECSection {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 

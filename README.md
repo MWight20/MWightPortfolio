@@ -1,8 +1,10 @@
 # MWightPortfolio 
+This application is a program built to showcase and display the resume and software developer portfolio of Michael Wight. 
+This app was built using C#.NET in Visual Studios 2019.
 
-### Notes to start:
+### Installation:
 ```
  - run 'git clone https://github.com/MWight20/MWightPortfolio.git'
- - In visual studios run a project clean and build before launching the project
- - Project build in Visual Studios 2019 Community edition
+ - In visual studios: Build > Build; Build > clean.
+ - To start: Debug > start without debugging
 ```

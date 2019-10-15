@@ -216,11 +216,13 @@
     <Content Include="Content\Images\MWightPortrait.jpg" />
     <Content Include="Content\Images\Northern_Illinois_Huskies_logo.svg.png" />
     <Content Include="Content\Images\SampleSite.png" />
+    <Content Include="Content\Images\schnuck-markets-squarelogo.png" />
     <Content Include="Content\Images\TMSAddnewproject.png" />
     <Content Include="Content\Images\TMSTimeSheets.png" />
     <Content Include="Content\Images\webapiapplicationScreenshot.png" />
     <Content Include="Content\Images\webapiCodesnippet.png" />
     <Content Include="Content\Images\WhiteGitLogo.png" />
+    <Content Include="Content\Images\wighteyecareiconTransparent.png" />
     <Content Include="Content\Images\winformapplicationScreenshot.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
