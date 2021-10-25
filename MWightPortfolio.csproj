@@ -206,6 +206,7 @@
     <Content Include="Content\Images\AzureCookBookNewRecipe.png" />
     <Content Include="Content\Images\azurecookbookscreenshot.png" />
     <Content Include="Content\Images\azurecookbookscreenshot2.png" />
+    <Content Include="Content\Images\BelcanLogo.png" />
     <Content Include="Content\Images\LinkedInLogo.png" />
     <Content Include="Content\Images\logoBannerBlackBack.png" />
     <Content Include="Content\Images\logoBannerTransparent.png" />

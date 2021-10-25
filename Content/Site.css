@@ -400,8 +400,14 @@ textarea {
 }
 
 .WECLogo,
-.schnuckLogo {
+.schnuckLogo 
+ {
     max-height: 200px;
+}
+
+.BelcanLogo
+{
+    width: 200px;
 }
 
 .tableOfContents {
@@ -437,7 +443,8 @@ textarea {
 }
 
 #schnucksSection,
-#WECSection {
+#WECSection,
+#BelcanSection {
     padding-top: 5%;
     padding-bottom: 5%;
 }
